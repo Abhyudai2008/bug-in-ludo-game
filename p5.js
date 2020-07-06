@@ -60836,7 +60836,7 @@ p5.prototype.loadImage = function(path, successCallback, failureCallback) {
     if (typeof failureCallback === 'function') {
       failureCallback(e);
     } else {
-      console.error(e);
+       console.error(e);
     }
   };
 
